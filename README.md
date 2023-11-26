@@ -12,3 +12,7 @@ root@5.35.83.191
 пароль в тг закреп
  к серваку лучше подключайте через puttty 
  https://youtu.be/rsZyBo9wpRA?si=iNIAEupzkh0GGlzQ&t=142
+Ещё сук. не грузится образ, но вы создайте вирутальное окружение и пропишите next:
+``` py
+pip install fastapi[all]
+```
